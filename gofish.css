@@ -4,14 +4,14 @@ body { margin: 0px;
        font-family: Verdana; }
 header { background-color: #3663a7; 
          background-image: url(images/fish_logo.jpg);
-	 background-size: 10% 100%;
-	 background-repeat: no-repeat;
-	 color: #FFFFFF;
-	 font-size: 90%;
-	 margin-top: 0;
-	 min-height: 100px; 
-       text-align: center;
-      justify-content: center;}
+	 	 background-size: 10% 100%;
+	 	 background-repeat: no-repeat;
+	 	 color: #FFFFFF;
+	 	 font-size: 100%;
+	 	 margin-top: 0;
+	 	 min-height: 100px; 
+       	 text-align: center;
+      	 justify-content: center;}
 header a { text-decoration: none;}
 header a:link { color: #FFF; }
 header a:visited { color: #FFF; }
@@ -28,52 +28,53 @@ nav { width: 100%;
       z-index: 9999; 
       position: relative; }
 nav ul { list-style-type: none;
-	 display: flex;
-	 flex-flow: row wrap;
-	 margin: 0;
-	 font-size: 1.2em; 
-       white-space: nowrap;}
+	 	 display: flex;
+	 	 flex-flow: row wrap;
+	 	 margin: 0;
+	 	 font-size: 1.2em; 
+    	 white-space: nowrap;}
 nav li { width: 40%;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-right: 1em; 
-	 padding-left: 1em;
-	 display: inline; 
-       white-space: nowrap;}
+		 padding-top: 0;
+	 	 padding-bottom: 0;
+	 	 padding-right: 1em; 
+	 	 padding-left: 1em;
+	     display: inline; 
+    	 white-space: nowrap;}
 nav a { text-decoration: none; 
-	  display: block;
+	    display: block;
         white-space: nowrap; }
 nav a:link { color: #FFFFFF; }
 nav a:visited { color: #FFFFFF; }
 nav a:hover { color: #fd9800; }
 .studio { font-style: italic; }
 footer { font-size: 0.60em;
-	 font-style: italic;
-	 text-align: center; 
-	 color:#FFFFFF; }
+	 	 font-style: italic;
+	 	 text-align: center; 
+	 	 color:#FFFFFF; }
 #wrapper { background-color: #74b3e0;
-	   padding: 2em; }
+	   	   padding: 2em; }
 #turtlehero { background-image: url(images/turtle.jpg);
-	   background-repeat: no-repeat;
-	   height: 300px; 
+	   		  background-repeat: no-repeat;
+	   		  height: 300px; 
 			  background-position: center; }
 #menuhero { background-image: url(images/menu_pic.jpg);
 			background-repeat: no-repeat;
-			background-size: 60% 100%;
+			background-size: 50% 100%;
 			background-position: center ;
 			padding: 5em;
 			text-align: center;
 			height: 300px;
 			opacity: 70%;
 			font-size: 150%; 
-		font-weight: bold;}
+			font-weight: bold;}
 .home { height: 10vh; 
-	padding-top: 0.5em;
-	}
+		padding-top: 0.5em; }
 .content { height: 20vh; 
-	   padding-top: 2em; 
-	   padding-left: 10%; }
-.menu { background-color: #b5cddd; }
+	   	   padding-top: 2em; 
+	   	   padding-left: 10%; }
+.menu { background-color: #b5cddd; 
+		padding-bottom: 1em;}
+.clear { text-align: right;}
 #mobile { display: inline; }
 #desktop { display: none; }
 form { display: flex;
@@ -88,16 +89,16 @@ input, textarea { margin-bottom: 0.5em; }
 @media (min-width: 600px) {
 	header {background-size: 15% 100%; }
 	nav ul { flex-wrap: nowrap;
-		 justify-content: flex-start; }
+		 	 justify-content: flex-start; }
 	nav li { width: 7em; }
 	section { padding-left: 2em;
-		  padding-right: 2em; }
+		  	  padding-right: 2em; }
 	#turtlehero { display: block; 
-		   padding-bottom: 1em; }
+		  		  padding-bottom: 1em; }
 	#menuhero { display: block;
-		     padding-bottom: 1em; }
+				padding-bottom: 1em; }
 	#flow { display: flex;
-		flex-direction: row; }
+			flex-direction: row; }
 	#mobile { display: none; }
 	#desktop { display: inline; }
 	form { width: 60%;
@@ -116,10 +117,10 @@ input, textarea { margin-bottom: 0.5em; }
 		 justify-content: center; 
 		 background-size: 8% 100%; }
 	.content { height: 30vh; 
-		   padding-top: 1em; 
-		   padding-left: 8em; }
+		   	   padding-top: 1em; 
+		  	   padding-left: 8em; }
 	.wrapper { margin: auto;
-		   width: 80%; } 
+		   	   width: 80%; } 
 }
 
 
