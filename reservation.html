@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Go Fish :: Reservations</title>
+<link href="gofish.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="home">
+	<h1>
+		<a href="index.html">Go Fish</a>
+	</h1>	
+</header>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="menu.html">Menu</a></li>
+		<li><a href="location.html">Location</a></li>
+		<li><a href="reservation.html">Reservations</a></li>
+		<li><a href="menu.html">Order Online</a></li>
+	</ul>
+</nav>
+<div id="wrapper">
+<main>
+	<h2>Make a reservation</h2>
+	<p>Please fill out the form to make a reservation</p>
+	<form>
+		<label for="myName">Name:</label>
+		<input type="text" name="myName" required>
+		<label for="myNumber">Phone Number:</label>
+		<input type="text" name="myNumber" required>
+		<label for="myEmail">Email:</label>
+		<input type="text" name="myEmail" required>
+		<label for="myDate">Choose a date:</label>
+		<input type="date" name="myDate" id="myDate" required>
+		<label for="myComments">Additional requests:</label>
+		<textarea name="myComments" id="myComments" rows="2" cols="20">
+		</textarea>
+		<input type="submit" value="Submit" name="mySubmit" id="mySubmit">
+	</form>
+</main>
+</div>
+<footer>
+	Copyright &copy; 2025 Go Fish Restaurant<br>
+	<a href="mailto:GoFish@gmail.com">GoFish@gmail.com</a>
+</footer>
+</body>
+</html>
